@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlanetNU", "PlanetNU\PlanetNU.vcxproj", "{A9005D4F-5540-4384-A4DB-161EBB52F81F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0D5EC3D6-9BBE-43DF-AA9D-3990B62A89CE} = {0D5EC3D6-9BBE-43DF-AA9D-3990B62A89CE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lualib", "lualib\lualib.vcxproj", "{9C003B38-E5AD-4623-8BF3-DC26F3AA706B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "lua\lua.vcxproj", "{5D5A09D1-8209-445E-9D1D-80910503AD88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib1", "zlib1\zlib1.vcxproj", "{8821C44D-52EA-47F5-BDE9-BA20AE8D1896}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "curllib", "curllib\curllib.vcxproj", "{0D5EC3D6-9BBE-43DF-AA9D-3990B62A89CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9005D4F-5540-4384-A4DB-161EBB52F81F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9005D4F-5540-4384-A4DB-161EBB52F81F}.Debug|Win32.Build.0 = Debug|Win32
+		{A9005D4F-5540-4384-A4DB-161EBB52F81F}.Release|Win32.ActiveCfg = Release|Win32
+		{A9005D4F-5540-4384-A4DB-161EBB52F81F}.Release|Win32.Build.0 = Release|Win32
+		{9C003B38-E5AD-4623-8BF3-DC26F3AA706B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C003B38-E5AD-4623-8BF3-DC26F3AA706B}.Debug|Win32.Build.0 = Debug|Win32
+		{9C003B38-E5AD-4623-8BF3-DC26F3AA706B}.Release|Win32.ActiveCfg = Release|Win32
+		{9C003B38-E5AD-4623-8BF3-DC26F3AA706B}.Release|Win32.Build.0 = Release|Win32
+		{5D5A09D1-8209-445E-9D1D-80910503AD88}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D5A09D1-8209-445E-9D1D-80910503AD88}.Debug|Win32.Build.0 = Debug|Win32
+		{5D5A09D1-8209-445E-9D1D-80910503AD88}.Release|Win32.ActiveCfg = Release|Win32
+		{5D5A09D1-8209-445E-9D1D-80910503AD88}.Release|Win32.Build.0 = Release|Win32
+		{8821C44D-52EA-47F5-BDE9-BA20AE8D1896}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8821C44D-52EA-47F5-BDE9-BA20AE8D1896}.Debug|Win32.Build.0 = Debug|Win32
+		{8821C44D-52EA-47F5-BDE9-BA20AE8D1896}.Release|Win32.ActiveCfg = Release|Win32
+		{8821C44D-52EA-47F5-BDE9-BA20AE8D1896}.Release|Win32.Build.0 = Release|Win32
+		{0D5EC3D6-9BBE-43DF-AA9D-3990B62A89CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D5EC3D6-9BBE-43DF-AA9D-3990B62A89CE}.Debug|Win32.Build.0 = Debug|Win32
+		{0D5EC3D6-9BBE-43DF-AA9D-3990B62A89CE}.Release|Win32.ActiveCfg = Release|Win32
+		{0D5EC3D6-9BBE-43DF-AA9D-3990B62A89CE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
