@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\deps\src\curllib-7.25.0\arpa_telnet.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\asyn.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\axtls.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\config-win32.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\connect.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\content_encoding.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\cookie.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curlx.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_addrinfo.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_base64.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_config.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_fnmatch.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_gethostname.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_gssapi.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_hmac.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_ldap.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_md4.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_md5.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_memory.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_memrchr.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_ntlm.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_ntlm_core.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_ntlm_msgs.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_ntlm_wb.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_rand.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_rtmp.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_sspi.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\curl_threads.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\cyassl.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\dict.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\easyif.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\escape.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\file.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\fileinfo.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\formdata.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\ftp.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\ftplistparser.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\getinfo.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\gopher.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\gtls.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\hash.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\hostip.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\http.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\http_chunks.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\http_digest.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\http_negotiate.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\http_proxy.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\if2ip.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\imap.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\inet_ntop.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\inet_pton.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\krb4.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\llist.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\memdebug.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\multiif.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\netrc.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\non-ascii.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\nonblock.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\nssg.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\parsedate.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\pingpong.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\polarssl.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\pop3.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\progress.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\qssl.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\rawstr.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\rtsp.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\select.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\sendf.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\setup.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\setup_once.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\share.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\slist.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\smtp.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\sockaddr.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\socks.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\speedcheck.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\splay.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\ssh.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\sslgen.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\ssluse.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\strdup.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\strequal.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\strerror.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\strtok.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\strtoofft.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\telnet.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\tftp.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\timeval.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\transfer.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\url.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\urldata.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\warnless.h" />
+    <ClInclude Include="..\deps\src\curllib-7.25.0\wildcard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\deps\src\curllib-7.25.0\asyn-ares.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\asyn-thread.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\axtls.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\base64.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\connect.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\content_encoding.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\cookie.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_addrinfo.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_fnmatch.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_gethostname.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_gssapi.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_memrchr.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_ntlm.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_ntlm_core.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_ntlm_msgs.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_ntlm_wb.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_rand.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_rtmp.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_sspi.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\curl_threads.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\cyassl.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\dict.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\easy.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\escape.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\file.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\fileinfo.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\formdata.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\ftp.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\ftplistparser.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\getenv.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\getinfo.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\gopher.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\gtls.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\hash.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\hmac.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\hostasyn.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\hostip.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\hostip4.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\hostip6.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\hostsyn.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\http.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\http_chunks.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\http_digest.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\http_negotiate.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\http_negotiate_sspi.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\http_proxy.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\idn_win32.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\if2ip.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\imap.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\inet_ntop.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\inet_pton.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\krb4.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\krb5.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\ldap.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\llist.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\md4.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\md5.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\memdebug.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\mprintf.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\multi.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\netrc.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\non-ascii.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\nonblock.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\nss.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\openldap.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\parsedate.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\pingpong.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\polarssl.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\pop3.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\progress.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\qssl.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\rawstr.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\rtsp.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\security.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\select.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\sendf.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\share.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\slist.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\smtp.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\socks.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\socks_gssapi.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\socks_sspi.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\speedcheck.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\splay.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\ssh.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\sslgen.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\ssluse.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\strdup.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\strequal.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\strerror.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\strtok.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\strtoofft.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\telnet.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\tftp.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\timeval.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\transfer.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\url.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\version.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\warnless.c" />
+    <ClCompile Include="..\deps\src\curllib-7.25.0\wildcard.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\deps\src\curllib-7.25.0\libcurl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\zlib1\zlib1.vcxproj">
+      <Project>{8821c44d-52ea-47f5-bde9-ba20ae8d1896}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D5EC3D6-9BBE-43DF-AA9D-3990B62A89CE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>curllib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>libcurl</TargetName>
+    <IncludePath>$(SolutionDir)deps\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>libcurl</TargetName>
+    <IncludePath>$(SolutionDir)deps\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;BUILDING_LIBCURL;WIN32;_WINDOWS;_MBCS_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;BUILDING_LIBCURL;WIN32;_WINDOWS;_MBCSNDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
