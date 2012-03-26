@@ -30,3 +30,11 @@ Gets a finished game or turn in that game.  Once it gets the file, it will save 
 If you try to load the turn again, it will try to find the file first and read that.
 
 Eventually this will mimic all the other api.
+
+===Extras===
+I have two lua files you can test out with.
+  `planets.lua`
+  If you run this, it will output the top 20 Duranium resources on player id 3 in game 815.  
+
+  `list.lua`
+  It will load up the current game list, and sort them by the amount of turns played.
